@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Test\\LibraryTests.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Library\\Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Library\\Library.csproj",
+        "projectName": "Library",
+        "projectPath": "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Library\\Library.csproj",
+        "packagesPath": "C:\\Users\\casal\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\casal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Test\\LibraryTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Test\\LibraryTests.csproj",
+        "projectName": "LibraryTests",
+        "projectPath": "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Test\\LibraryTests.csproj",
+        "packagesPath": "C:\\Users\\casal\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\casal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Library\\Library.csproj": {
+                "projectPath": "c:\\Users\\casal\\OneDrive - Universidad Católica del Uruguay\\Programación 2\\Proyecto\\Repo\\proyecto\\src\\Library\\Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
